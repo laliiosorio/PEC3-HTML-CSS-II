@@ -1,0 +1,48 @@
+/**
+ * Use this file to import partials.
+ * Do not include SCSS code in this file.
+ */
+
+/**
+ * Import variables
+ */
+
+@import "variables", "functions";
+
+/**
+ * Import npm dependencies
+ * see: https://v2.parceljs.org/features/module-resolution/
+ * see commented examples below
+ */
+
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// @import "some-node-module";
+// @import "@some-company/some-node-module";
+
+@layer base {
+  html {
+    font-family: $font-family-sans-serif;
+  }
+}
+
+@layer components {
+  .btn-cta {
+    @apply text-sm font-semibold leading-6 text-indigo-400;
+  }
+
+  .img-profile{
+    @apply aspect-[14/13] w-full rounded-2xl object-cover
+  }
+}
+/**
+ * Import layouts
+ * It's a best practice to use a different partial for each page
+ */
+
+/**
+ * Do NOT include anything else in this file!
+ */
