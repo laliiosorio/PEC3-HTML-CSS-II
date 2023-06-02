@@ -1,6 +1,6 @@
-# Single page Monument
+# Chess Tailwind
 
-This is a page for the PEC 1 work of the HTML & CSS II subject. The project is created on the UOC's Boilerplate.
+This is a page for the PEC 3 work of the HTML & CSS II subject. The project is created on the UOC's Boilerplate.
 
 # UOC Boilerplate
 
